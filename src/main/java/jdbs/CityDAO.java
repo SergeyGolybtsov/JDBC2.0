@@ -7,6 +7,7 @@ public interface CityDAO {
 
     City read(int id);
 
+
     List<City> readAll();
 
     void delete(City city);

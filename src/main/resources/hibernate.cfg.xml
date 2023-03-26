@@ -15,6 +15,5 @@
 
         <property name="show_sql">false</property> <!-- Show SQL in console -->
         <property name="format_sql">true</property> <!-- Show SQL formatted -->
-
     </session-factory>
 </hibernate-configuration>

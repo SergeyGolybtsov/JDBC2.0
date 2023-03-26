@@ -29,6 +29,7 @@ public class Application {
             System.out.println(city);
             city.getEmployees().forEach(System.out::println);
         });
+
     }
 
     private static Connection getConnection() {

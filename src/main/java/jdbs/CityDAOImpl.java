@@ -15,6 +15,7 @@ public class CityDAOImpl implements CityDAO {
         }
     }
 
+
     @Override
     public City read(int id) {
         try (Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession()) {
