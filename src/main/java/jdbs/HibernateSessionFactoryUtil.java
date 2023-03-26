@@ -8,6 +8,7 @@ public class HibernateSessionFactoryUtil {
 
     private HibernateSessionFactoryUtil() {}
 
+
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
